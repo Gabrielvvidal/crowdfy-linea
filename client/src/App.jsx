@@ -6,12 +6,12 @@ import { CampaignDetails, CreateCampaign, Home, Profile } from './pages';
 
 const App = () => {
   return (
-    <div className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
-      <div className="sm:flex hidden mr-10 relative">
+    <div className="relative sm:-8 bg-[#F4F4F4] min-h-screen flex flex-row">
+      <div className="sm:flex hidden relative">
         <Sidebar />
       </div>
 
-      <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
+      <div className="flex flex-col flex-1 max-sm:w-full p-[47px] pt-[26px] gap-7">
         <Navbar />
 
         <Routes>
